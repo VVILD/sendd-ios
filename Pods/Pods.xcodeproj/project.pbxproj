@@ -1,0 +1,1743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		055E12A5C15CA7CF5A5952F5 /* Pods-Sendd-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72BC92E98FF6D814A129684A /* Pods-Sendd-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		098279923115E022AB8B93F5 /* SAMTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 53A4D01799F6B5BF6FFCF397 /* SAMTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F90C8E6B2BF264F6F54DB41 /* Pods-Sendd-SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1551C0A43E673A52BEE92548 /* Pods-Sendd-SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1245DA3F4C35C7FD4C05DFD6 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 279540F163580286009A81ED /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1980EAFF57DE73F350E77511 /* SAMTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 586FF53E7DEF481DD5808D3E /* SAMTextView.m */; };
+		1CC74101793569F93CE83148 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A2CCA175CDF0A3496E2C09F8 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25EE2F82F973E3B59F414348 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2318E08A607FED7388A4C159 /* SystemConfiguration.framework */; };
+		2619A2AC4850A7AC591ADBA4 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 72F88DC9DAFC8CE3F10EED12 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DDDAADBAE0C09BCA8B3A3C6 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 10EA48E3FCBCB201E9E5E768 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DFD635314345DFE691061A0 /* Pods-Sendd-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9AED7627003D2D47C45FED1 /* Pods-Sendd-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30E385C23235722037197A6F /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2B9DAA1C946BE64BA23518 /* AFURLSessionManager.m */; };
+		3151008DF0FBA9D2FECFCF9A /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = E041BAE765B3F7C97D63A588 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31558E8F006E7A5996185D17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52445CDEFD85A0FBC10857C9 /* UIKit.framework */; };
+		34B3FC55BBA5038B50E6BAD4 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E906C0795F34A986535087 /* AFHTTPRequestOperation.m */; };
+		371C71D956E694A5FEB74BD9 /* UIImageView+ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4A1934AB3F219D685AFB1D /* UIImageView+ImageLoader.swift */; };
+		4330718DD49EC6264C9A3603 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1468E601A51F66063111A3 /* AFSecurityPolicy.m */; };
+		43F1821179CC954FF1F2416B /* Pods-Sendd-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FA777DD405431D2C83D932 /* Pods-Sendd-AFNetworking-dummy.m */; };
+		451A6677081C25C2C12FFE4C /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 75956C8E47FF433F4ED5C17D /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49D0ED0B4D594638BAC62D68 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1404BFD13DB2ACE3C7019EF5 /* Manager.swift */; };
+		49DE071458ED2E9B22D1B28A /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDD9B4822A7EEDABB2AED81 /* Download.swift */; };
+		4D37DC720D3047BDD13C6140 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1225D7C47B50220926C76E46 /* CoreGraphics.framework */; };
+		4D3C5AC1E0B16020A49B572B /* Pods-Sendd-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE855BECDE798B57060C6C0B /* Pods-Sendd-Alamofire-dummy.m */; };
+		4EC386D9D1CD0FAEC32A9B23 /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CED35C74C0394AAE3DBFE3C4 /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50A0ABFDF895F0161FE8531C /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47EDA2B45CCD9EEC3E34A8 /* Validation.swift */; };
+		535241DEA7036C79CCD97B56 /* Pods-Sendd-Async-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4234FD60581DBAF91856CBAF /* Pods-Sendd-Async-dummy.m */; };
+		55402E394BAB4D16B024F6B6 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C9709C838B6A76F83FB63D /* ResponseSerialization.swift */; };
+		5560D3758F938B9BC52A3C68 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F56F596BB2A06B2E34D41554 /* AFURLRequestSerialization.m */; };
+		5579999801057043E442A124 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33554EAE0FE3DF0910A923FD /* Foundation.framework */; };
+		578BC6C4C64502E3C993FE3C /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD8C1E757A0D2B831CFDC1D /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59BF4B8ABE09087BBFC37800 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = BD11D4911A0E73527C24567A /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AD6C629DD20419B7DE1AE41 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BECF9C8780E88F777A2234E3 /* AFNetworkActivityIndicatorManager.m */; };
+		5E56B0C4D28090F5E4D481B1 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68177DA42DEAE36972B30A8 /* Request.swift */; };
+		618164A3FC27C250411F8907 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = FEDF7712608806E5A5BCD509 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		644D33285B8D3A00C3CC2EF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33554EAE0FE3DF0910A923FD /* Foundation.framework */; };
+		64CA2AEB5EF34FBDB9053010 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3168B637D7360D6B2B320DB2 /* UIRefreshControl+AFNetworking.m */; };
+		65BF6EECC5ACD5A3AD3EBA87 /* Pods-Sendd-SAMTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F0DE6C865D478B0A73C41C /* Pods-Sendd-SAMTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A3BAD8A72A129721B672D67 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 26E491A67C50409E2AC849BF /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CBDCEAE206467C3190BE41B /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D06DF982209E26A57E9DFD /* Async.swift */; };
+		6CE329F41F467F2C04C890CA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29EB9219DCAA5335BC3F5298 /* MobileCoreServices.framework */; };
+		724994B06164073744C1515A /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D460451C243D2D725B29302 /* UIAlertView+AFNetworking.m */; };
+		73FA389EA5BACABBD72AA9E9 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4914676CB909656A584B6DE8 /* UIImageView+AFNetworking.m */; };
+		7661137F4B00AE4052191796 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD47A48370498F752C8434A /* AFHTTPRequestOperationManager.m */; };
+		7AEE1697A85110463A98B54E /* Diskcached.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB42D5EF27C7AE4DED1598E0 /* Diskcached.swift */; };
+		81408D36A17F34ACF882E898 /* Pods-Sendd-AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C2BD028F8BB99F8D2834DE2 /* Pods-Sendd-AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8181AF1CE535FFB2DB54E8D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1225D7C47B50220926C76E46 /* CoreGraphics.framework */; };
+		83426D95AF1D97F83B9E47AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33554EAE0FE3DF0910A923FD /* Foundation.framework */; };
+		85FBAF97120895210094C956 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FFD8F05C6505A37F724AE6D2 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86A7CA1563B3651F0FA71C5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33554EAE0FE3DF0910A923FD /* Foundation.framework */; };
+		8763FFEF17569978396CC69D /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A08FAD5C4DF86B1F457EF2E1 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EABEFECF05256904F07837A /* Pods-Sendd-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F92830FFB4392BAAEED900 /* Pods-Sendd-dummy.m */; };
+		8F5D5135F20E6B4A254751AF /* Pods-Sendd-Async-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DAF6ACD1FD80680FA0C7A2B /* Pods-Sendd-Async-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9032AB2871B6B16A1872D373 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33554EAE0FE3DF0910A923FD /* Foundation.framework */; };
+		97092CEEC2BDE54538A9A1BC /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAF66F787CA28F194289F04 /* AFHTTPSessionManager.m */; };
+		99229BCE2CDAF2B1ED531844 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33554EAE0FE3DF0910A923FD /* Foundation.framework */; };
+		9B2A4B939BD79B6A494CB4EB /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFAB395B32B1D59D70039CF /* AFNetworkReachabilityManager.m */; };
+		9BF762457449EA744309E28D /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2E22B77CCF9971E48353F /* UIProgressView+AFNetworking.m */; };
+		A0EBC4E38312AAA59D219132 /* Pods-Sendd-SCLAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9D881A203E7248E6FF67A0 /* Pods-Sendd-SCLAlertView-dummy.m */; };
+		A12DD4A84E68F0C812A74DE6 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = BB4EA67C7662DE95FA420D74 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A559954411464505A62DC180 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9C5180706A187D6CD2309D /* Upload.swift */; };
+		A6335B3CEE8C2CFF01280B01 /* Pods-Sendd-SCLAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2137576D3B102A42B6686B19 /* Pods-Sendd-SCLAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A668298564A061EECFC4FDA7 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B21D05BCA5BDF30F3A0D2BB0 /* AFURLConnectionOperation.m */; };
+		A89B09166AC6DDE80AD63BF9 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A920BC5BCFCB55F9A3A02D8B /* SCLAlertView.swift */; };
+		A9C6AF381F3FC3EA3BB81766 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C2CBCBE59F403B131456049 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE28AE665FB79E64F763AB0B /* Pods-Sendd-ImageLoader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C21DA16600B169A702EEBDF6 /* Pods-Sendd-ImageLoader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE780FE4BEF03CE77975043D /* Pods-Sendd-SAMTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE80D589762197592B60113 /* Pods-Sendd-SAMTextView-dummy.m */; };
+		B0D43DEB5041BBD91369BDB9 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC7BF29F4D1069E2A0EBE06 /* AFURLResponseSerialization.m */; };
+		B4774CEC3CF63D67E6224166 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F4D976B698B07849C58EB1E /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9D5DFE8FFE518511F1328B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33554EAE0FE3DF0910A923FD /* Foundation.framework */; };
+		BDF09D61202B2885D56BCECC /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 37C5490B44FC78963A24657F /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C65B0C7CCCEABDA684F608C7 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80384D122B4C55909405AAA /* ParameterEncoding.swift */; };
+		C83F8E6F133ABA8B35B4D788 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C5DD4B967BBE5274F7EE6 /* SwiftyJSON.swift */; };
+		CCF171093CE8F644B73C89A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33554EAE0FE3DF0910A923FD /* Foundation.framework */; };
+		D9EAC14DB99ACA36090CB5A1 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 18856352CE02C76324892FAD /* UIButton+AFNetworking.m */; };
+		DAFA3DABE5C8D78714E33B0E /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A284F20E94D87AED9BC6E665 /* UIActivityIndicatorView+AFNetworking.m */; };
+		DEB832F7F47E04EAB20AB89B /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B44B7BBA71965C71B22A70FC /* UIWebView+AFNetworking.m */; };
+		DEE835640F0BB9F030471A9A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6119501493B630274603B54 /* Security.framework */; };
+		E020BAC82BD7F012C13A4109 /* Pods-Sendd-SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F466C3C7E196F10E4BCE3040 /* Pods-Sendd-SwiftyJSON-dummy.m */; };
+		E125A488BC10A20AA0EF125D /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E881DD4378EAEC69E074D6 /* Alamofire.swift */; };
+		E1E8E822BDD4E34C13656590 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5926D21697FC273534A7AE03 /* ImageLoader.swift */; };
+		E4D50C04FE875817C1C2D661 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 494C385ADA8CF4B37282FBA1 /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E58317E85BE0F2CACD753FEC /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = AD86D12CB1399DEF96FDA431 /* Info.plist */; };
+		E94E789E717F634E650E067F /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7440DBB67E41D9429CEEAA6C /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E985E659C7B6AF24AA53ED24 /* Pods-Sendd-ImageLoader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8C0C588EDADB908C3074E8 /* Pods-Sendd-ImageLoader-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15B57CE2F3165D2197BFC803 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26B816520FA47D5A4FF3B6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29E1728F3CEE1799D3B2D2AD;
+			remoteInfo = "Pods-Sendd-SCLAlertView";
+		};
+		7AA2C97BA2A964F45E9A4A92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26B816520FA47D5A4FF3B6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E6E2460139E1648676ABD67;
+			remoteInfo = "Pods-Sendd-ImageLoader";
+		};
+		9F69B7CBD80F81B89A431EF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26B816520FA47D5A4FF3B6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 962BC73E1938DC05F85B1022;
+			remoteInfo = "Pods-Sendd-AFNetworking";
+		};
+		A6FA6B985D75BC3CB3D6E6C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26B816520FA47D5A4FF3B6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1836CC6C5BF27F5A1F3D1F68;
+			remoteInfo = "Pods-Sendd-SwiftyJSON";
+		};
+		B0A2111FE02867F2D7E11B17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26B816520FA47D5A4FF3B6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC5AFBDF893CE878C8B6B55A;
+			remoteInfo = "Pods-Sendd-SAMTextView";
+		};
+		B5F6D78006220DCD36870235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26B816520FA47D5A4FF3B6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9E5A81DD4782AEB571E0F44;
+			remoteInfo = "Pods-Sendd-Async";
+		};
+		F5B674A06237B2C90B76C212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26B816520FA47D5A4FF3B6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A34511A3B318A00C63386074;
+			remoteInfo = "Pods-Sendd-Alamofire";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0078880284F6E0AA34B449BA /* Pods-Sendd-SCLAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sendd-SCLAlertView.xcconfig"; sourceTree = "<group>"; };
+		03D06DF982209E26A57E9DFD /* Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Async.swift; sourceTree = "<group>"; };
+		04F796188F925CE20B39A6B0 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10EA48E3FCBCB201E9E5E768 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		1225D7C47B50220926C76E46 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		129839D4915E99F770129FC8 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		1404BFD13DB2ACE3C7019EF5 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		1551C0A43E673A52BEE92548 /* Pods-Sendd-SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sendd-SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		17CDF818AC9C86F0CAAC7C41 /* Pods-Sendd-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sendd-Alamofire.xcconfig"; sourceTree = "<group>"; };
+		18856352CE02C76324892FAD /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		1BC7824670958FF16B3237A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D460451C243D2D725B29302 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		2137576D3B102A42B6686B19 /* Pods-Sendd-SCLAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sendd-SCLAlertView-umbrella.h"; sourceTree = "<group>"; };
+		2318E08A607FED7388A4C159 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		26E491A67C50409E2AC849BF /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		279540F163580286009A81ED /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		29EB9219DCAA5335BC3F5298 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		2BD8C1E757A0D2B831CFDC1D /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		2C2BD028F8BB99F8D2834DE2 /* Pods-Sendd-AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sendd-AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		2C2CBCBE59F403B131456049 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		2C7C5DD4B967BBE5274F7EE6 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		2E8B3B6BBD5A2A2890033002 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3168B637D7360D6B2B320DB2 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		33554EAE0FE3DF0910A923FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		337674846C2093D31E391885 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		365BA6C5BE8AC10049A04C5B /* Pods-Sendd-SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Sendd-SwiftyJSON.modulemap"; sourceTree = "<group>"; };
+		37C5490B44FC78963A24657F /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		396BBB6F80639DCE5884FB23 /* SCLAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D17F38ED7D30BA9821B196A /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		401F02D0795BCF701B81845F /* Pods-Sendd-SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sendd-SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		4234FD60581DBAF91856CBAF /* Pods-Sendd-Async-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sendd-Async-dummy.m"; sourceTree = "<group>"; };
+		440F8F9A48C3AE3105A68F3D /* Pods-Sendd-ImageLoader-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sendd-ImageLoader-Private.xcconfig"; sourceTree = "<group>"; };
+		47AECC5AD2397223863C1F45 /* Pods-Sendd-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sendd-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
+		47B2EEB31042315448E8AFCE /* ImageLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4914676CB909656A584B6DE8 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		494C385ADA8CF4B37282FBA1 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		4A61CE8E371AC567A6B84DD1 /* Pods-Sendd-AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Sendd-AFNetworking.modulemap"; sourceTree = "<group>"; };
+		4BDD9B4822A7EEDABB2AED81 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		4F4D976B698B07849C58EB1E /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		4FA98264A387ADF57797EF8D /* Pods-Sendd-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sendd-environment.h"; sourceTree = "<group>"; };
+		50E906C0795F34A986535087 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		51F92830FFB4392BAAEED900 /* Pods-Sendd-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sendd-dummy.m"; sourceTree = "<group>"; };
+		52445CDEFD85A0FBC10857C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		52921DD63B3694B6EB592FC4 /* Pods-Sendd-Async.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sendd-Async.xcconfig"; sourceTree = "<group>"; };
+		53A4D01799F6B5BF6FFCF397 /* SAMTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMTextView.h; path = SAMTextView/SAMTextView.h; sourceTree = "<group>"; };
+		56152D0D26155C2C7EE08CB9 /* Pods-Sendd-ImageLoader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Sendd-ImageLoader.modulemap"; sourceTree = "<group>"; };
+		586FF53E7DEF481DD5808D3E /* SAMTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMTextView.m; path = SAMTextView/SAMTextView.m; sourceTree = "<group>"; };
+		58A005C6CDBA17F2D6169C95 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5926D21697FC273534A7AE03 /* ImageLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageLoader.swift; path = ImageLoader/ImageLoader.swift; sourceTree = "<group>"; };
+		59CAFDB67CA39E20D23042CC /* Pods-Sendd-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sendd-frameworks.sh"; sourceTree = "<group>"; };
+		59E881DD4378EAEC69E074D6 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		5AFAB395B32B1D59D70039CF /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		5C47EDA2B45CCD9EEC3E34A8 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		5DAF6ACD1FD80680FA0C7A2B /* Pods-Sendd-Async-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sendd-Async-umbrella.h"; sourceTree = "<group>"; };
+		62220DDFBC59F83CD99D1BC9 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		6C3C65CB5287F1291C73C029 /* Pods-Sendd-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sendd-Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		6DE80D589762197592B60113 /* Pods-Sendd-SAMTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sendd-SAMTextView-dummy.m"; sourceTree = "<group>"; };
+		72BC92E98FF6D814A129684A /* Pods-Sendd-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sendd-Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		72F88DC9DAFC8CE3F10EED12 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		73237BAEEDD3FF7B4BEBE41D /* Pods-Sendd-ImageLoader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sendd-ImageLoader-prefix.pch"; sourceTree = "<group>"; };
+		7440DBB67E41D9429CEEAA6C /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		74A6820A859CCA6D8E3768D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75956C8E47FF433F4ED5C17D /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		7A2A8A6904CBFC66AFBE81F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF63A694A51BBE423B1E964 /* Pods-Sendd-SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sendd-SwiftyJSON.xcconfig"; sourceTree = "<group>"; };
+		82FA777DD405431D2C83D932 /* Pods-Sendd-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sendd-AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		88DCF36735CDD839C283D4A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8943EABD8DA8507978913777 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8A736780BC8DCA932FA6A232 /* SAMTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAMTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB60A15F0244D624553AECA /* Pods-Sendd-SCLAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sendd-SCLAlertView-prefix.pch"; sourceTree = "<group>"; };
+		8D43E4A53BC103F640BF3DDF /* Pods-Sendd-SCLAlertView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sendd-SCLAlertView-Private.xcconfig"; sourceTree = "<group>"; };
+		8D904FC116ECAA89A1FF808B /* Pods-Sendd-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sendd-resources.sh"; sourceTree = "<group>"; };
+		8FD47A48370498F752C8434A /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		9149D2E28EDBBDBF6923E861 /* Pods-Sendd-SAMTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sendd-SAMTextView-prefix.pch"; sourceTree = "<group>"; };
+		929DE406197D162D9C79A9D4 /* Pods-Sendd-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sendd-acknowledgements.plist"; sourceTree = "<group>"; };
+		92F79951659EE69BB43B6636 /* Pods-Sendd-SAMTextView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sendd-SAMTextView-Private.xcconfig"; sourceTree = "<group>"; };
+		95AA0B8585D479CEA2A4EA38 /* Pods-Sendd-SAMTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sendd-SAMTextView.xcconfig"; sourceTree = "<group>"; };
+		9A2A6CBEE2E7B81D5E550F3F /* Pods-Sendd-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sendd-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		9BCDE0C476DD556C948DE469 /* Pods-Sendd-Async-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sendd-Async-Private.xcconfig"; sourceTree = "<group>"; };
+		9C2B9DAA1C946BE64BA23518 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		9CA2E22B77CCF9971E48353F /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		A08FAD5C4DF86B1F457EF2E1 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		A284F20E94D87AED9BC6E665 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		A2CCA175CDF0A3496E2C09F8 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		A68177DA42DEAE36972B30A8 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		A920BC5BCFCB55F9A3A02D8B /* SCLAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLAlertView.swift; path = SCLAlertView/SCLAlertView.swift; sourceTree = "<group>"; };
+		A9E481264CEAC9EE10D11085 /* Pods-Sendd-Async-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sendd-Async-prefix.pch"; sourceTree = "<group>"; };
+		AC4A1934AB3F219D685AFB1D /* UIImageView+ImageLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+ImageLoader.swift"; path = "ImageLoader/UIImageView+ImageLoader.swift"; sourceTree = "<group>"; };
+		AD1468E601A51F66063111A3 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		AD86D12CB1399DEF96FDA431 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = SCLAlertView/Info.plist; sourceTree = "<group>"; };
+		B21D05BCA5BDF30F3A0D2BB0 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		B44B7BBA71965C71B22A70FC /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		BADC311C245CC3A72FCEA694 /* Pods-Sendd-SCLAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Sendd-SCLAlertView.modulemap"; sourceTree = "<group>"; };
+		BB4EA67C7662DE95FA420D74 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		BD11D4911A0E73527C24567A /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		BECF9C8780E88F777A2234E3 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		BF9C5180706A187D6CD2309D /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		C21DA16600B169A702EEBDF6 /* Pods-Sendd-ImageLoader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sendd-ImageLoader-umbrella.h"; sourceTree = "<group>"; };
+		C973C0EC4A9A78D12748118F /* Pods-Sendd-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sendd-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C9F0DE6C865D478B0A73C41C /* Pods-Sendd-SAMTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sendd-SAMTextView-umbrella.h"; sourceTree = "<group>"; };
+		CC8C0C588EDADB908C3074E8 /* Pods-Sendd-ImageLoader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sendd-ImageLoader-dummy.m"; sourceTree = "<group>"; };
+		CC9D881A203E7248E6FF67A0 /* Pods-Sendd-SCLAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sendd-SCLAlertView-dummy.m"; sourceTree = "<group>"; };
+		CE971D6B30C8670D68DAE81A /* Pods-Sendd-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Sendd-Alamofire.modulemap"; sourceTree = "<group>"; };
+		CEAF66F787CA28F194289F04 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		CED35C74C0394AAE3DBFE3C4 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		D6C9709C838B6A76F83FB63D /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		D950735CE47464D1D77EFB2B /* Pods_Sendd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sendd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9AED7627003D2D47C45FED1 /* Pods-Sendd-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sendd-umbrella.h"; sourceTree = "<group>"; };
+		DBCFD42B748D97547557899A /* Pods-Sendd-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sendd-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
+		DD4DBCD22399DA17F49F5D7C /* Pods-Sendd-SAMTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Sendd-SAMTextView.modulemap"; sourceTree = "<group>"; };
+		DE855BECDE798B57060C6C0B /* Pods-Sendd-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sendd-Alamofire-dummy.m"; sourceTree = "<group>"; };
+		E041BAE765B3F7C97D63A588 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		E08EB8526E3D0F1BEB813913 /* Pods-Sendd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sendd.release.xcconfig"; sourceTree = "<group>"; };
+		E11AEE8B19416FDEDE28CC2B /* Pods-Sendd.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Sendd.modulemap"; sourceTree = "<group>"; };
+		E6215FF39C3238FF0B038A9C /* Pods-Sendd-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sendd-AFNetworking.xcconfig"; sourceTree = "<group>"; };
+		E8631496747B50165B902EDE /* Pods-Sendd-SwiftyJSON-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sendd-SwiftyJSON-Private.xcconfig"; sourceTree = "<group>"; };
+		EBEA94C58A993B9515A6EF95 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC60A418A64B04E4145B8ADB /* Async.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Async.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC7BF29F4D1069E2A0EBE06 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		EFC280E2CEC5D46FD590CDE0 /* Pods-Sendd-Async.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Sendd-Async.modulemap"; sourceTree = "<group>"; };
+		F4434730F3F3A27010D5569C /* Pods-Sendd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sendd.debug.xcconfig"; sourceTree = "<group>"; };
+		F466C3C7E196F10E4BCE3040 /* Pods-Sendd-SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sendd-SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		F56F596BB2A06B2E34D41554 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		F5EDAAC40622B17A04887B70 /* Pods-Sendd-ImageLoader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sendd-ImageLoader.xcconfig"; sourceTree = "<group>"; };
+		F6119501493B630274603B54 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		F80384D122B4C55909405AAA /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		FB42D5EF27C7AE4DED1598E0 /* Diskcached.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Diskcached.swift; path = ImageLoader/Diskcached.swift; sourceTree = "<group>"; };
+		FEDF7712608806E5A5BCD509 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		FF4EED7D3892255F38A160AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD8F05C6505A37F724AE6D2 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		247FBC958E62896ACB3BB464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99229BCE2CDAF2B1ED531844 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63FFC665F8E61214D9059398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644D33285B8D3A00C3CC2EF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6959F8902DDF11FD152283AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D37DC720D3047BDD13C6140 /* CoreGraphics.framework in Frameworks */,
+				86A7CA1563B3651F0FA71C5A /* Foundation.framework in Frameworks */,
+				31558E8F006E7A5996185D17 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1AB6529F6A5A3B99726BAB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8181AF1CE535FFB2DB54E8D5 /* CoreGraphics.framework in Frameworks */,
+				B9D5DFE8FFE518511F1328B6 /* Foundation.framework in Frameworks */,
+				6CE329F41F467F2C04C890CA /* MobileCoreServices.framework in Frameworks */,
+				DEE835640F0BB9F030471A9A /* Security.framework in Frameworks */,
+				25EE2F82F973E3B59F414348 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A819D821A2AEBD368D61E93E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83426D95AF1D97F83B9E47AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8BCD4C29D3BA93A65C3CE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF171093CE8F644B73C89A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75265A7DC282E4FE1DD4817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5579999801057043E442A124 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD42832F4F936C762AC83173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9032AB2871B6B16A1872D373 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		058D0538D72765C9F042FDD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D17F38ED7D30BA9821B196A /* AFNetworking.framework */,
+				04F796188F925CE20B39A6B0 /* Alamofire.framework */,
+				EC60A418A64B04E4145B8ADB /* Async.framework */,
+				47B2EEB31042315448E8AFCE /* ImageLoader.framework */,
+				D950735CE47464D1D77EFB2B /* Pods_Sendd.framework */,
+				8A736780BC8DCA932FA6A232 /* SAMTextView.framework */,
+				396BBB6F80639DCE5884FB23 /* SCLAlertView.framework */,
+				58A005C6CDBA17F2D6169C95 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08E6B085928C9B35B1183DA4 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				26E491A67C50409E2AC849BF /* AFURLRequestSerialization.h */,
+				F56F596BB2A06B2E34D41554 /* AFURLRequestSerialization.m */,
+				E041BAE765B3F7C97D63A588 /* AFURLResponseSerialization.h */,
+				ECC7BF29F4D1069E2A0EBE06 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		166C805D08E18C1B8CB07929 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A45652B4BF151B1BA08C3E20 /* AFNetworking */,
+				B44DC7223BA9D186164E34BD /* Alamofire */,
+				FFCA5E945F89D5688F37E821 /* Async */,
+				25C28B656EC5992903EF495E /* GoogleMaps */,
+				7FFA394BE499A58D8E835213 /* ImageLoader */,
+				F26BC90F828882C276648EDD /* SAMTextView */,
+				F89675A1BAF80DDD1015A576 /* SCLAlertView */,
+				9CEE93B422C6F2953BF34BAC /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		25C28B656EC5992903EF495E /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				C7A28BE6450B68321AA99BBE /* Frameworks */,
+				302E313B5F6BB585113C0FE2 /* Resources */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		302E313B5F6BB585113C0FE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				129839D4915E99F770129FC8 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		35677AD5E1195F5B5B2D0D17 /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				BD11D4911A0E73527C24567A /* AFHTTPRequestOperation.h */,
+				50E906C0795F34A986535087 /* AFHTTPRequestOperation.m */,
+				37C5490B44FC78963A24657F /* AFHTTPRequestOperationManager.h */,
+				8FD47A48370498F752C8434A /* AFHTTPRequestOperationManager.m */,
+				494C385ADA8CF4B37282FBA1 /* AFURLConnectionOperation.h */,
+				B21D05BCA5BDF30F3A0D2BB0 /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		38DCC5C9ABFFE4713AB1B485 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1225D7C47B50220926C76E46 /* CoreGraphics.framework */,
+				33554EAE0FE3DF0910A923FD /* Foundation.framework */,
+				29EB9219DCAA5335BC3F5298 /* MobileCoreServices.framework */,
+				F6119501493B630274603B54 /* Security.framework */,
+				2318E08A607FED7388A4C159 /* SystemConfiguration.framework */,
+				52445CDEFD85A0FBC10857C9 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		41AFF45D287871EE9647451E /* Pods-Sendd */ = {
+			isa = PBXGroup;
+			children = (
+				FF4EED7D3892255F38A160AF /* Info.plist */,
+				E11AEE8B19416FDEDE28CC2B /* Pods-Sendd.modulemap */,
+				C973C0EC4A9A78D12748118F /* Pods-Sendd-acknowledgements.markdown */,
+				929DE406197D162D9C79A9D4 /* Pods-Sendd-acknowledgements.plist */,
+				51F92830FFB4392BAAEED900 /* Pods-Sendd-dummy.m */,
+				4FA98264A387ADF57797EF8D /* Pods-Sendd-environment.h */,
+				59CAFDB67CA39E20D23042CC /* Pods-Sendd-frameworks.sh */,
+				8D904FC116ECAA89A1FF808B /* Pods-Sendd-resources.sh */,
+				D9AED7627003D2D47C45FED1 /* Pods-Sendd-umbrella.h */,
+				F4434730F3F3A27010D5569C /* Pods-Sendd.debug.xcconfig */,
+				E08EB8526E3D0F1BEB813913 /* Pods-Sendd.release.xcconfig */,
+			);
+			name = "Pods-Sendd";
+			path = "Target Support Files/Pods-Sendd";
+			sourceTree = "<group>";
+		};
+		5822DCF96DCDE0A18472F45C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E8B3B6BBD5A2A2890033002 /* Info.plist */,
+				EFC280E2CEC5D46FD590CDE0 /* Pods-Sendd-Async.modulemap */,
+				52921DD63B3694B6EB592FC4 /* Pods-Sendd-Async.xcconfig */,
+				9BCDE0C476DD556C948DE469 /* Pods-Sendd-Async-Private.xcconfig */,
+				4234FD60581DBAF91856CBAF /* Pods-Sendd-Async-dummy.m */,
+				A9E481264CEAC9EE10D11085 /* Pods-Sendd-Async-prefix.pch */,
+				5DAF6ACD1FD80680FA0C7A2B /* Pods-Sendd-Async-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Sendd-Async";
+			sourceTree = "<group>";
+		};
+		5A58B3C8A1DC8E20BEACF637 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				2C2CBCBE59F403B131456049 /* AFHTTPSessionManager.h */,
+				CEAF66F787CA28F194289F04 /* AFHTTPSessionManager.m */,
+				FFD8F05C6505A37F724AE6D2 /* AFURLSessionManager.h */,
+				9C2B9DAA1C946BE64BA23518 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		69581292D5D1A9A6D1317AF9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBEA94C58A993B9515A6EF95 /* Info.plist */,
+				DD4DBCD22399DA17F49F5D7C /* Pods-Sendd-SAMTextView.modulemap */,
+				95AA0B8585D479CEA2A4EA38 /* Pods-Sendd-SAMTextView.xcconfig */,
+				92F79951659EE69BB43B6636 /* Pods-Sendd-SAMTextView-Private.xcconfig */,
+				6DE80D589762197592B60113 /* Pods-Sendd-SAMTextView-dummy.m */,
+				9149D2E28EDBBDBF6923E861 /* Pods-Sendd-SAMTextView-prefix.pch */,
+				C9F0DE6C865D478B0A73C41C /* Pods-Sendd-SAMTextView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Sendd-SAMTextView";
+			sourceTree = "<group>";
+		};
+		6CABC81013602F2DDDC585B1 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				2BD8C1E757A0D2B831CFDC1D /* AFNetworkActivityIndicatorManager.h */,
+				BECF9C8780E88F777A2234E3 /* AFNetworkActivityIndicatorManager.m */,
+				7440DBB67E41D9429CEEAA6C /* UIActivityIndicatorView+AFNetworking.h */,
+				A284F20E94D87AED9BC6E665 /* UIActivityIndicatorView+AFNetworking.m */,
+				CED35C74C0394AAE3DBFE3C4 /* UIAlertView+AFNetworking.h */,
+				1D460451C243D2D725B29302 /* UIAlertView+AFNetworking.m */,
+				A08FAD5C4DF86B1F457EF2E1 /* UIButton+AFNetworking.h */,
+				18856352CE02C76324892FAD /* UIButton+AFNetworking.m */,
+				10EA48E3FCBCB201E9E5E768 /* UIImageView+AFNetworking.h */,
+				4914676CB909656A584B6DE8 /* UIImageView+AFNetworking.m */,
+				75956C8E47FF433F4ED5C17D /* UIKit+AFNetworking.h */,
+				A2CCA175CDF0A3496E2C09F8 /* UIProgressView+AFNetworking.h */,
+				9CA2E22B77CCF9971E48353F /* UIProgressView+AFNetworking.m */,
+				BB4EA67C7662DE95FA420D74 /* UIRefreshControl+AFNetworking.h */,
+				3168B637D7360D6B2B320DB2 /* UIRefreshControl+AFNetworking.m */,
+				FEDF7712608806E5A5BCD509 /* UIWebView+AFNetworking.h */,
+				B44B7BBA71965C71B22A70FC /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		790C6E51FC88CF7DAF296088 = {
+			isa = PBXGroup;
+			children = (
+				8943EABD8DA8507978913777 /* Podfile */,
+				9332931B20AF95F62A31E708 /* Frameworks */,
+				166C805D08E18C1B8CB07929 /* Pods */,
+				058D0538D72765C9F042FDD8 /* Products */,
+				D4332E7CAB4DE19E633E6AAC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FFA394BE499A58D8E835213 /* ImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				FB42D5EF27C7AE4DED1598E0 /* Diskcached.swift */,
+				5926D21697FC273534A7AE03 /* ImageLoader.swift */,
+				AC4A1934AB3F219D685AFB1D /* UIImageView+ImageLoader.swift */,
+				86A43FBA6B8C540369182EE4 /* Support Files */,
+			);
+			path = ImageLoader;
+			sourceTree = "<group>";
+		};
+		86A43FBA6B8C540369182EE4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74A6820A859CCA6D8E3768D7 /* Info.plist */,
+				56152D0D26155C2C7EE08CB9 /* Pods-Sendd-ImageLoader.modulemap */,
+				F5EDAAC40622B17A04887B70 /* Pods-Sendd-ImageLoader.xcconfig */,
+				440F8F9A48C3AE3105A68F3D /* Pods-Sendd-ImageLoader-Private.xcconfig */,
+				CC8C0C588EDADB908C3074E8 /* Pods-Sendd-ImageLoader-dummy.m */,
+				73237BAEEDD3FF7B4BEBE41D /* Pods-Sendd-ImageLoader-prefix.pch */,
+				C21DA16600B169A702EEBDF6 /* Pods-Sendd-ImageLoader-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Sendd-ImageLoader";
+			sourceTree = "<group>";
+		};
+		9332931B20AF95F62A31E708 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38DCC5C9ABFFE4713AB1B485 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94DD86D9DAFFF26EEDDA3890 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A2A8A6904CBFC66AFBE81F9 /* Info.plist */,
+				BADC311C245CC3A72FCEA694 /* Pods-Sendd-SCLAlertView.modulemap */,
+				0078880284F6E0AA34B449BA /* Pods-Sendd-SCLAlertView.xcconfig */,
+				8D43E4A53BC103F640BF3DDF /* Pods-Sendd-SCLAlertView-Private.xcconfig */,
+				CC9D881A203E7248E6FF67A0 /* Pods-Sendd-SCLAlertView-dummy.m */,
+				8AB60A15F0244D624553AECA /* Pods-Sendd-SCLAlertView-prefix.pch */,
+				2137576D3B102A42B6686B19 /* Pods-Sendd-SCLAlertView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Sendd-SCLAlertView";
+			sourceTree = "<group>";
+		};
+		9B95D9B4E7FEF6C463551872 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				337674846C2093D31E391885 /* Info.plist */,
+				CE971D6B30C8670D68DAE81A /* Pods-Sendd-Alamofire.modulemap */,
+				17CDF818AC9C86F0CAAC7C41 /* Pods-Sendd-Alamofire.xcconfig */,
+				47AECC5AD2397223863C1F45 /* Pods-Sendd-Alamofire-Private.xcconfig */,
+				DE855BECDE798B57060C6C0B /* Pods-Sendd-Alamofire-dummy.m */,
+				6C3C65CB5287F1291C73C029 /* Pods-Sendd-Alamofire-prefix.pch */,
+				72BC92E98FF6D814A129684A /* Pods-Sendd-Alamofire-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Sendd-Alamofire";
+			sourceTree = "<group>";
+		};
+		9CEE93B422C6F2953BF34BAC /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				2C7C5DD4B967BBE5274F7EE6 /* SwiftyJSON.swift */,
+				C22A9F282304BE9C71238A71 /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		A45652B4BF151B1BA08C3E20 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				72F88DC9DAFC8CE3F10EED12 /* AFNetworking.h */,
+				35677AD5E1195F5B5B2D0D17 /* NSURLConnection */,
+				5A58B3C8A1DC8E20BEACF637 /* NSURLSession */,
+				CD05C1FA1E2165D68364A66E /* Reachability */,
+				E0461DDFA818362C9B17FDF8 /* Security */,
+				08E6B085928C9B35B1183DA4 /* Serialization */,
+				FFF831A79E91AFD436BBCBD0 /* Support Files */,
+				6CABC81013602F2DDDC585B1 /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		B44DC7223BA9D186164E34BD /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				59E881DD4378EAEC69E074D6 /* Alamofire.swift */,
+				4BDD9B4822A7EEDABB2AED81 /* Download.swift */,
+				1404BFD13DB2ACE3C7019EF5 /* Manager.swift */,
+				F80384D122B4C55909405AAA /* ParameterEncoding.swift */,
+				A68177DA42DEAE36972B30A8 /* Request.swift */,
+				D6C9709C838B6A76F83FB63D /* ResponseSerialization.swift */,
+				BF9C5180706A187D6CD2309D /* Upload.swift */,
+				5C47EDA2B45CCD9EEC3E34A8 /* Validation.swift */,
+				9B95D9B4E7FEF6C463551872 /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		C22A9F282304BE9C71238A71 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88DCF36735CDD839C283D4A1 /* Info.plist */,
+				365BA6C5BE8AC10049A04C5B /* Pods-Sendd-SwiftyJSON.modulemap */,
+				7DF63A694A51BBE423B1E964 /* Pods-Sendd-SwiftyJSON.xcconfig */,
+				E8631496747B50165B902EDE /* Pods-Sendd-SwiftyJSON-Private.xcconfig */,
+				F466C3C7E196F10E4BCE3040 /* Pods-Sendd-SwiftyJSON-dummy.m */,
+				401F02D0795BCF701B81845F /* Pods-Sendd-SwiftyJSON-prefix.pch */,
+				1551C0A43E673A52BEE92548 /* Pods-Sendd-SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Sendd-SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		C7A28BE6450B68321AA99BBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62220DDFBC59F83CD99D1BC9 /* GoogleMaps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD05C1FA1E2165D68364A66E /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				279540F163580286009A81ED /* AFNetworkReachabilityManager.h */,
+				5AFAB395B32B1D59D70039CF /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		D4332E7CAB4DE19E633E6AAC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				41AFF45D287871EE9647451E /* Pods-Sendd */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E0461DDFA818362C9B17FDF8 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				4F4D976B698B07849C58EB1E /* AFSecurityPolicy.h */,
+				AD1468E601A51F66063111A3 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		F26BC90F828882C276648EDD /* SAMTextView */ = {
+			isa = PBXGroup;
+			children = (
+				53A4D01799F6B5BF6FFCF397 /* SAMTextView.h */,
+				586FF53E7DEF481DD5808D3E /* SAMTextView.m */,
+				69581292D5D1A9A6D1317AF9 /* Support Files */,
+			);
+			path = SAMTextView;
+			sourceTree = "<group>";
+		};
+		F89675A1BAF80DDD1015A576 /* SCLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				AD86D12CB1399DEF96FDA431 /* Info.plist */,
+				A920BC5BCFCB55F9A3A02D8B /* SCLAlertView.swift */,
+				94DD86D9DAFFF26EEDDA3890 /* Support Files */,
+			);
+			path = SCLAlertView;
+			sourceTree = "<group>";
+		};
+		FFCA5E945F89D5688F37E821 /* Async */ = {
+			isa = PBXGroup;
+			children = (
+				03D06DF982209E26A57E9DFD /* Async.swift */,
+				5822DCF96DCDE0A18472F45C /* Support Files */,
+			);
+			path = Async;
+			sourceTree = "<group>";
+		};
+		FFF831A79E91AFD436BBCBD0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BC7824670958FF16B3237A0 /* Info.plist */,
+				4A61CE8E371AC567A6B84DD1 /* Pods-Sendd-AFNetworking.modulemap */,
+				E6215FF39C3238FF0B038A9C /* Pods-Sendd-AFNetworking.xcconfig */,
+				DBCFD42B748D97547557899A /* Pods-Sendd-AFNetworking-Private.xcconfig */,
+				82FA777DD405431D2C83D932 /* Pods-Sendd-AFNetworking-dummy.m */,
+				9A2A6CBEE2E7B81D5E550F3F /* Pods-Sendd-AFNetworking-prefix.pch */,
+				2C2BD028F8BB99F8D2834DE2 /* Pods-Sendd-AFNetworking-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Sendd-AFNetworking";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		34C9D63A6118ABA251924C19 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DFD635314345DFE691061A0 /* Pods-Sendd-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD82A6DA715F9299900B9BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BF4B8ABE09087BBFC37800 /* AFHTTPRequestOperation.h in Headers */,
+				BDF09D61202B2885D56BCECC /* AFHTTPRequestOperationManager.h in Headers */,
+				A9C6AF381F3FC3EA3BB81766 /* AFHTTPSessionManager.h in Headers */,
+				578BC6C4C64502E3C993FE3C /* AFNetworkActivityIndicatorManager.h in Headers */,
+				1245DA3F4C35C7FD4C05DFD6 /* AFNetworkReachabilityManager.h in Headers */,
+				2619A2AC4850A7AC591ADBA4 /* AFNetworking.h in Headers */,
+				B4774CEC3CF63D67E6224166 /* AFSecurityPolicy.h in Headers */,
+				E4D50C04FE875817C1C2D661 /* AFURLConnectionOperation.h in Headers */,
+				6A3BAD8A72A129721B672D67 /* AFURLRequestSerialization.h in Headers */,
+				3151008DF0FBA9D2FECFCF9A /* AFURLResponseSerialization.h in Headers */,
+				85FBAF97120895210094C956 /* AFURLSessionManager.h in Headers */,
+				81408D36A17F34ACF882E898 /* Pods-Sendd-AFNetworking-umbrella.h in Headers */,
+				E94E789E717F634E650E067F /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				4EC386D9D1CD0FAEC32A9B23 /* UIAlertView+AFNetworking.h in Headers */,
+				8763FFEF17569978396CC69D /* UIButton+AFNetworking.h in Headers */,
+				2DDDAADBAE0C09BCA8B3A3C6 /* UIImageView+AFNetworking.h in Headers */,
+				451A6677081C25C2C12FFE4C /* UIKit+AFNetworking.h in Headers */,
+				1CC74101793569F93CE83148 /* UIProgressView+AFNetworking.h in Headers */,
+				A12DD4A84E68F0C812A74DE6 /* UIRefreshControl+AFNetworking.h in Headers */,
+				618164A3FC27C250411F8907 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64DE6BF1ED8F62637B78EE8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				055E12A5C15CA7CF5A5952F5 /* Pods-Sendd-Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B3098ED17CB51EDB082D18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE28AE665FB79E64F763AB0B /* Pods-Sendd-ImageLoader-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FCCA9420355BD401428E5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65BF6EECC5ACD5A3AD3EBA87 /* Pods-Sendd-SAMTextView-umbrella.h in Headers */,
+				098279923115E022AB8B93F5 /* SAMTextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71FB4BF132A0091F084A72A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F5D5135F20E6B4A254751AF /* Pods-Sendd-Async-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBB4630A2B1304B28C4E04B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6335B3CEE8C2CFF01280B01 /* Pods-Sendd-SCLAlertView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3BFD3DE641C507EB360476D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F90C8E6B2BF264F6F54DB41 /* Pods-Sendd-SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1836CC6C5BF27F5A1F3D1F68 /* Pods-Sendd-SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5751FB89BB9C0EEDD61318D2 /* Build configuration list for PBXNativeTarget "Pods-Sendd-SwiftyJSON" */;
+			buildPhases = (
+				2C3440BCA74CEABB5796EA11 /* Sources */,
+				F75265A7DC282E4FE1DD4817 /* Frameworks */,
+				E3BFD3DE641C507EB360476D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Sendd-SwiftyJSON";
+			productName = "Pods-Sendd-SwiftyJSON";
+			productReference = 58A005C6CDBA17F2D6169C95 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		29E1728F3CEE1799D3B2D2AD /* Pods-Sendd-SCLAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44C11B60A4B7662D13CC6B33 /* Build configuration list for PBXNativeTarget "Pods-Sendd-SCLAlertView" */;
+			buildPhases = (
+				71046D09A391C7027D8350E7 /* Sources */,
+				63FFC665F8E61214D9059398 /* Frameworks */,
+				CFBB4630A2B1304B28C4E04B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Sendd-SCLAlertView";
+			productName = "Pods-Sendd-SCLAlertView";
+			productReference = 396BBB6F80639DCE5884FB23 /* SCLAlertView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E6E2460139E1648676ABD67 /* Pods-Sendd-ImageLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32296926B3BE73935CE68B7B /* Build configuration list for PBXNativeTarget "Pods-Sendd-ImageLoader" */;
+			buildPhases = (
+				4C19324C146B389AB4B8C2C6 /* Sources */,
+				FD42832F4F936C762AC83173 /* Frameworks */,
+				A1B3098ED17CB51EDB082D18 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Sendd-ImageLoader";
+			productName = "Pods-Sendd-ImageLoader";
+			productReference = 47B2EEB31042315448E8AFCE /* ImageLoader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		962BC73E1938DC05F85B1022 /* Pods-Sendd-AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B83A609EF2084731E65CB2F2 /* Build configuration list for PBXNativeTarget "Pods-Sendd-AFNetworking" */;
+			buildPhases = (
+				3EF3FF30CA835FD6FC102913 /* Sources */,
+				A1AB6529F6A5A3B99726BAB6 /* Frameworks */,
+				4BD82A6DA715F9299900B9BA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Sendd-AFNetworking";
+			productName = "Pods-Sendd-AFNetworking";
+			productReference = 3D17F38ED7D30BA9821B196A /* AFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A34511A3B318A00C63386074 /* Pods-Sendd-Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC21044F5576706657FFA432 /* Build configuration list for PBXNativeTarget "Pods-Sendd-Alamofire" */;
+			buildPhases = (
+				DF2AD271FF053271542FB6CE /* Sources */,
+				AE8BCD4C29D3BA93A65C3CE8 /* Frameworks */,
+				64DE6BF1ED8F62637B78EE8C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Sendd-Alamofire";
+			productName = "Pods-Sendd-Alamofire";
+			productReference = 04F796188F925CE20B39A6B0 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE99608CFF625AF7086F2FD0 /* Pods-Sendd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C78A3199943E6DCE89A47BD /* Build configuration list for PBXNativeTarget "Pods-Sendd" */;
+			buildPhases = (
+				BA29002CF1121DCCB0BEA265 /* Sources */,
+				A819D821A2AEBD368D61E93E /* Frameworks */,
+				34C9D63A6118ABA251924C19 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5069CD30354125364998817 /* PBXTargetDependency */,
+				2B2AEDC8E557DD5877D4FDAA /* PBXTargetDependency */,
+				00AC7EDD6BE01CEEB93DB935 /* PBXTargetDependency */,
+				570E605C28FDC09D5A66FC0D /* PBXTargetDependency */,
+				1D2F2A13A35E92FC9CE84C65 /* PBXTargetDependency */,
+				35E8E56F58D2D92ACD5B2509 /* PBXTargetDependency */,
+				2DC0940E6E5EE0DFEA2E7452 /* PBXTargetDependency */,
+			);
+			name = "Pods-Sendd";
+			productName = "Pods-Sendd";
+			productReference = D950735CE47464D1D77EFB2B /* Pods_Sendd.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC5AFBDF893CE878C8B6B55A /* Pods-Sendd-SAMTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2929668A03924606190532F /* Build configuration list for PBXNativeTarget "Pods-Sendd-SAMTextView" */;
+			buildPhases = (
+				ED1E8AA5FEF1DBDB7A2A67A0 /* Sources */,
+				6959F8902DDF11FD152283AF /* Frameworks */,
+				A4FCCA9420355BD401428E5B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Sendd-SAMTextView";
+			productName = "Pods-Sendd-SAMTextView";
+			productReference = 8A736780BC8DCA932FA6A232 /* SAMTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9E5A81DD4782AEB571E0F44 /* Pods-Sendd-Async */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF53CAF627ABD4E3111C40A /* Build configuration list for PBXNativeTarget "Pods-Sendd-Async" */;
+			buildPhases = (
+				6C927667EFBC7DB10753D4D0 /* Sources */,
+				247FBC958E62896ACB3BB464 /* Frameworks */,
+				C71FB4BF132A0091F084A72A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Sendd-Async";
+			productName = "Pods-Sendd-Async";
+			productReference = EC60A418A64B04E4145B8ADB /* Async.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E26B816520FA47D5A4FF3B6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 449C0848A881B4B9A89761B4 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 790C6E51FC88CF7DAF296088;
+			productRefGroup = 058D0538D72765C9F042FDD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE99608CFF625AF7086F2FD0 /* Pods-Sendd */,
+				962BC73E1938DC05F85B1022 /* Pods-Sendd-AFNetworking */,
+				A34511A3B318A00C63386074 /* Pods-Sendd-Alamofire */,
+				F9E5A81DD4782AEB571E0F44 /* Pods-Sendd-Async */,
+				8E6E2460139E1648676ABD67 /* Pods-Sendd-ImageLoader */,
+				CC5AFBDF893CE878C8B6B55A /* Pods-Sendd-SAMTextView */,
+				29E1728F3CEE1799D3B2D2AD /* Pods-Sendd-SCLAlertView */,
+				1836CC6C5BF27F5A1F3D1F68 /* Pods-Sendd-SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C3440BCA74CEABB5796EA11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E020BAC82BD7F012C13A4109 /* Pods-Sendd-SwiftyJSON-dummy.m in Sources */,
+				C83F8E6F133ABA8B35B4D788 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF3FF30CA835FD6FC102913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B3FC55BBA5038B50E6BAD4 /* AFHTTPRequestOperation.m in Sources */,
+				7661137F4B00AE4052191796 /* AFHTTPRequestOperationManager.m in Sources */,
+				97092CEEC2BDE54538A9A1BC /* AFHTTPSessionManager.m in Sources */,
+				5AD6C629DD20419B7DE1AE41 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				9B2A4B939BD79B6A494CB4EB /* AFNetworkReachabilityManager.m in Sources */,
+				4330718DD49EC6264C9A3603 /* AFSecurityPolicy.m in Sources */,
+				A668298564A061EECFC4FDA7 /* AFURLConnectionOperation.m in Sources */,
+				5560D3758F938B9BC52A3C68 /* AFURLRequestSerialization.m in Sources */,
+				B0D43DEB5041BBD91369BDB9 /* AFURLResponseSerialization.m in Sources */,
+				30E385C23235722037197A6F /* AFURLSessionManager.m in Sources */,
+				43F1821179CC954FF1F2416B /* Pods-Sendd-AFNetworking-dummy.m in Sources */,
+				DAFA3DABE5C8D78714E33B0E /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				724994B06164073744C1515A /* UIAlertView+AFNetworking.m in Sources */,
+				D9EAC14DB99ACA36090CB5A1 /* UIButton+AFNetworking.m in Sources */,
+				73FA389EA5BACABBD72AA9E9 /* UIImageView+AFNetworking.m in Sources */,
+				9BF762457449EA744309E28D /* UIProgressView+AFNetworking.m in Sources */,
+				64CA2AEB5EF34FBDB9053010 /* UIRefreshControl+AFNetworking.m in Sources */,
+				DEB832F7F47E04EAB20AB89B /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C19324C146B389AB4B8C2C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AEE1697A85110463A98B54E /* Diskcached.swift in Sources */,
+				E1E8E822BDD4E34C13656590 /* ImageLoader.swift in Sources */,
+				E985E659C7B6AF24AA53ED24 /* Pods-Sendd-ImageLoader-dummy.m in Sources */,
+				371C71D956E694A5FEB74BD9 /* UIImageView+ImageLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C927667EFBC7DB10753D4D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CBDCEAE206467C3190BE41B /* Async.swift in Sources */,
+				535241DEA7036C79CCD97B56 /* Pods-Sendd-Async-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71046D09A391C7027D8350E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58317E85BE0F2CACD753FEC /* Info.plist in Sources */,
+				A0EBC4E38312AAA59D219132 /* Pods-Sendd-SCLAlertView-dummy.m in Sources */,
+				A89B09166AC6DDE80AD63BF9 /* SCLAlertView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA29002CF1121DCCB0BEA265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EABEFECF05256904F07837A /* Pods-Sendd-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2AD271FF053271542FB6CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E125A488BC10A20AA0EF125D /* Alamofire.swift in Sources */,
+				49DE071458ED2E9B22D1B28A /* Download.swift in Sources */,
+				49D0ED0B4D594638BAC62D68 /* Manager.swift in Sources */,
+				C65B0C7CCCEABDA684F608C7 /* ParameterEncoding.swift in Sources */,
+				4D3C5AC1E0B16020A49B572B /* Pods-Sendd-Alamofire-dummy.m in Sources */,
+				5E56B0C4D28090F5E4D481B1 /* Request.swift in Sources */,
+				55402E394BAB4D16B024F6B6 /* ResponseSerialization.swift in Sources */,
+				A559954411464505A62DC180 /* Upload.swift in Sources */,
+				50A0ABFDF895F0161FE8531C /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1E8AA5FEF1DBDB7A2A67A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE780FE4BEF03CE77975043D /* Pods-Sendd-SAMTextView-dummy.m in Sources */,
+				1980EAFF57DE73F350E77511 /* SAMTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00AC7EDD6BE01CEEB93DB935 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Sendd-Async";
+			target = F9E5A81DD4782AEB571E0F44 /* Pods-Sendd-Async */;
+			targetProxy = B5F6D78006220DCD36870235 /* PBXContainerItemProxy */;
+		};
+		1D2F2A13A35E92FC9CE84C65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Sendd-SAMTextView";
+			target = CC5AFBDF893CE878C8B6B55A /* Pods-Sendd-SAMTextView */;
+			targetProxy = B0A2111FE02867F2D7E11B17 /* PBXContainerItemProxy */;
+		};
+		2B2AEDC8E557DD5877D4FDAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Sendd-Alamofire";
+			target = A34511A3B318A00C63386074 /* Pods-Sendd-Alamofire */;
+			targetProxy = F5B674A06237B2C90B76C212 /* PBXContainerItemProxy */;
+		};
+		2DC0940E6E5EE0DFEA2E7452 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Sendd-SwiftyJSON";
+			target = 1836CC6C5BF27F5A1F3D1F68 /* Pods-Sendd-SwiftyJSON */;
+			targetProxy = A6FA6B985D75BC3CB3D6E6C4 /* PBXContainerItemProxy */;
+		};
+		35E8E56F58D2D92ACD5B2509 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Sendd-SCLAlertView";
+			target = 29E1728F3CEE1799D3B2D2AD /* Pods-Sendd-SCLAlertView */;
+			targetProxy = 15B57CE2F3165D2197BFC803 /* PBXContainerItemProxy */;
+		};
+		570E605C28FDC09D5A66FC0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Sendd-ImageLoader";
+			target = 8E6E2460139E1648676ABD67 /* Pods-Sendd-ImageLoader */;
+			targetProxy = 7AA2C97BA2A964F45E9A4A92 /* PBXContainerItemProxy */;
+		};
+		F5069CD30354125364998817 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Sendd-AFNetworking";
+			target = 962BC73E1938DC05F85B1022 /* Pods-Sendd-AFNetworking */;
+			targetProxy = 9F69B7CBD80F81B89A431EF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B0DD48086422F4E390193B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47AECC5AD2397223863C1F45 /* Pods-Sendd-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Sendd-Alamofire/Pods-Sendd-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sendd-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Sendd-Alamofire/Pods-Sendd-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		175A80D83C5F84B14C8B3928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBCFD42B748D97547557899A /* Pods-Sendd-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Sendd-AFNetworking/Pods-Sendd-AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sendd-AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Sendd-AFNetworking/Pods-Sendd-AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2121D9AA177D1208CA297E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AC15DCE9B7052EEF9F2F5ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92F79951659EE69BB43B6636 /* Pods-Sendd-SAMTextView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Sendd-SAMTextView/Pods-Sendd-SAMTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sendd-SAMTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Sendd-SAMTextView/Pods-Sendd-SAMTextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SAMTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58E12E5C2D9AD9770E0431B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E08EB8526E3D0F1BEB813913 /* Pods-Sendd.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Sendd/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Sendd/Pods-Sendd.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Sendd;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		594B5207ABB32FC025EC3498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 440F8F9A48C3AE3105A68F3D /* Pods-Sendd-ImageLoader-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Sendd-ImageLoader/Pods-Sendd-ImageLoader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sendd-ImageLoader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Sendd-ImageLoader/Pods-Sendd-ImageLoader.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ImageLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7FDE115F7BBB8633B0CCE0E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D43E4A53BC103F640BF3DDF /* Pods-Sendd-SCLAlertView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Sendd-SCLAlertView/Pods-Sendd-SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sendd-SCLAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Sendd-SCLAlertView/Pods-Sendd-SCLAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F3FEC4A4B5E861032AA1710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBCFD42B748D97547557899A /* Pods-Sendd-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Sendd-AFNetworking/Pods-Sendd-AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sendd-AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Sendd-AFNetworking/Pods-Sendd-AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B4CA8A0CBCEECFB34A66287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BCDE0C476DD556C948DE469 /* Pods-Sendd-Async-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Sendd-Async/Pods-Sendd-Async-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sendd-Async/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Sendd-Async/Pods-Sendd-Async.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Async;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F131CA93B661E0D1BC98555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8631496747B50165B902EDE /* Pods-Sendd-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Sendd-SwiftyJSON/Pods-Sendd-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sendd-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Sendd-SwiftyJSON/Pods-Sendd-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0760DBD7C5ECEA5A7393C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BCDE0C476DD556C948DE469 /* Pods-Sendd-Async-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Sendd-Async/Pods-Sendd-Async-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sendd-Async/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Sendd-Async/Pods-Sendd-Async.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Async;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B81656BDA87555E9985C5EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92F79951659EE69BB43B6636 /* Pods-Sendd-SAMTextView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Sendd-SAMTextView/Pods-Sendd-SAMTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sendd-SAMTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Sendd-SAMTextView/Pods-Sendd-SAMTextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SAMTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D844214C66331C972A4E7702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8631496747B50165B902EDE /* Pods-Sendd-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Sendd-SwiftyJSON/Pods-Sendd-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sendd-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Sendd-SwiftyJSON/Pods-Sendd-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF4FA07CDA931DACF2C09627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 440F8F9A48C3AE3105A68F3D /* Pods-Sendd-ImageLoader-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Sendd-ImageLoader/Pods-Sendd-ImageLoader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sendd-ImageLoader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Sendd-ImageLoader/Pods-Sendd-ImageLoader.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ImageLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5DD8A3EEC2D81BFD00B080A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4434730F3F3A27010D5569C /* Pods-Sendd.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Sendd/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Sendd/Pods-Sendd.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Sendd;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E71675BB2A6705743BB3B05C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47AECC5AD2397223863C1F45 /* Pods-Sendd-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Sendd-Alamofire/Pods-Sendd-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sendd-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Sendd-Alamofire/Pods-Sendd-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E72FA13274CF4FB4903CF352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E90A23661BAA191F06F675A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D43E4A53BC103F640BF3DDF /* Pods-Sendd-SCLAlertView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Sendd-SCLAlertView/Pods-Sendd-SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sendd-SCLAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Sendd-SCLAlertView/Pods-Sendd-SCLAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C78A3199943E6DCE89A47BD /* Build configuration list for PBXNativeTarget "Pods-Sendd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5DD8A3EEC2D81BFD00B080A /* Debug */,
+				58E12E5C2D9AD9770E0431B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32296926B3BE73935CE68B7B /* Build configuration list for PBXNativeTarget "Pods-Sendd-ImageLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF4FA07CDA931DACF2C09627 /* Debug */,
+				594B5207ABB32FC025EC3498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		449C0848A881B4B9A89761B4 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E72FA13274CF4FB4903CF352 /* Debug */,
+				2121D9AA177D1208CA297E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44C11B60A4B7662D13CC6B33 /* Build configuration list for PBXNativeTarget "Pods-Sendd-SCLAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FDE115F7BBB8633B0CCE0E0 /* Debug */,
+				E90A23661BAA191F06F675A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5751FB89BB9C0EEDD61318D2 /* Build configuration list for PBXNativeTarget "Pods-Sendd-SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F131CA93B661E0D1BC98555 /* Debug */,
+				D844214C66331C972A4E7702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B83A609EF2084731E65CB2F2 /* Build configuration list for PBXNativeTarget "Pods-Sendd-AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F3FEC4A4B5E861032AA1710 /* Debug */,
+				175A80D83C5F84B14C8B3928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2929668A03924606190532F /* Build configuration list for PBXNativeTarget "Pods-Sendd-SAMTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC15DCE9B7052EEF9F2F5ED /* Debug */,
+				B81656BDA87555E9985C5EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCF53CAF627ABD4E3111C40A /* Build configuration list for PBXNativeTarget "Pods-Sendd-Async" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B4CA8A0CBCEECFB34A66287 /* Debug */,
+				B0760DBD7C5ECEA5A7393C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC21044F5576706657FFA432 /* Build configuration list for PBXNativeTarget "Pods-Sendd-Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E71675BB2A6705743BB3B05C /* Debug */,
+				0B0DD48086422F4E390193B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E26B816520FA47D5A4FF3B6F /* Project object */;
+}

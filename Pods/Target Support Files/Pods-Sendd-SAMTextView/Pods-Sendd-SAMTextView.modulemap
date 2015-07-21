@@ -1,0 +1,6 @@
+framework module SAMTextView {
+  umbrella header "Pods-Sendd-SAMTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}

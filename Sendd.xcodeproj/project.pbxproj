@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3009D47B1B4BF463003ED850 /* CustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009D4781B4BF463003ED850 /* CustomAlertViewController.swift */; };
+		3009D47C1B4BF463003ED850 /* CustomAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3009D4791B4BF463003ED850 /* CustomAlertViewController.xib */; };
+		3009D47D1B4BF463003ED850 /* CustomAlertViewTransitioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009D47A1B4BF463003ED850 /* CustomAlertViewTransitioner.swift */; };
+		3009D47F1B5292B3003ED850 /* NetworkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009D47E1B5292B3003ED850 /* NetworkUtils.swift */; };
+		3021EBF01B357C3800100208 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3021EBEF1B357C3800100208 /* Main.storyboard */; };
+		3021EBF81B357C6F00100208 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3021EBF71B357C6F00100208 /* SWRevealViewController.m */; };
+		3021EBFD1B36361E00100208 /* CustomerSupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3021EBFC1B36361E00100208 /* CustomerSupportViewController.swift */; };
+		3021EC301B36E02C00100208 /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3021EC2F1B36E02C00100208 /* FAQViewController.swift */; };
+		3021EC381B36F4E800100208 /* InitialtPageItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3021EC361B36F4E800100208 /* InitialtPageItemController.swift */; };
+		3021EC391B36F4E800100208 /* InitialTutorialController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3021EC371B36F4E800100208 /* InitialTutorialController.swift */; };
+		3021EC3B1B370B8100100208 /* TabBarControllerSwipeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3021EC3A1B370B8100100208 /* TabBarControllerSwipeExtension.swift */; };
+		3021EC3E1B37335300100208 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3021EC3D1B37335300100208 /* RegisterViewController.swift */; };
+		3021EC401B37338600100208 /* VerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3021EC3F1B37338600100208 /* VerifyViewController.swift */; };
+		3021EC421B3838F100100208 /* ManuallyAddDestinationAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3021EC411B3838F100100208 /* ManuallyAddDestinationAddressViewController.swift */; };
+		3021EC441B38397900100208 /* AddDestinationAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3021EC431B38397900100208 /* AddDestinationAddress.swift */; };
+		3021EC471B38DD8900100208 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3021EC461B38DD8900100208 /* CoreLocation.framework */; };
+		3024AB521B357AB70052F281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024AB511B357AB70052F281 /* AppDelegate.swift */; };
+		3024AB551B357AB70052F281 /* Sendd.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3024AB531B357AB70052F281 /* Sendd.xcdatamodeld */; };
+		3024AB5C1B357AB70052F281 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3024AB5B1B357AB70052F281 /* Images.xcassets */; };
+		3024AB5F1B357AB70052F281 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3024AB5D1B357AB70052F281 /* LaunchScreen.xib */; };
+		3024AB6B1B357AB70052F281 /* SenddTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024AB6A1B357AB70052F281 /* SenddTests.swift */; };
+		3024AB7C1B357AF10052F281 /* PreviousParcelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024AB741B357AF00052F281 /* PreviousParcelViewController.swift */; };
+		3024AB7D1B357AF10052F281 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024AB751B357AF00052F281 /* MenuController.swift */; };
+		3024AB7E1B357AF10052F281 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024AB761B357AF10052F281 /* OrdersViewController.swift */; };
+		3024AB7F1B357AF10052F281 /* RateCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024AB771B357AF10052F281 /* RateCalculatorViewController.swift */; };
+		3024AB801B357AF10052F281 /* PickupAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024AB781B357AF10052F281 /* PickupAddressViewController.swift */; };
+		3024AB811B357AF10052F281 /* PageItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024AB791B357AF10052F281 /* PageItemController.swift */; };
+		3024AB831B357AF10052F281 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024AB7B1B357AF10052F281 /* TutorialViewController.swift */; };
+		3042D8781B3A00E9002C34B0 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3042D8771B3A00E9002C34B0 /* UIColorExtension.swift */; };
+		3042D87A1B3A02E6002C34B0 /* AllShipmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3042D8791B3A02E6002C34B0 /* AllShipmentsViewController.swift */; };
+		3042D87C1B3A0300002C34B0 /* UpcomingShipmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3042D87B1B3A0300002C34B0 /* UpcomingShipmentsViewController.swift */; };
+		3042D87E1B3A0315002C34B0 /* CompletedShipmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3042D87D1B3A0315002C34B0 /* CompletedShipmentViewController.swift */; };
+		305184F81B3B724C00175793 /* ListItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305184F71B3B724B00175793 /* ListItemCell.swift */; };
+		305184FA1B3BBE3A00175793 /* ThankyouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305184F91B3BBE3A00175793 /* ThankyouViewController.swift */; };
+		3051850F1B3CE35F00175793 /* UpdateAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3051850E1B3CE35F00175793 /* UpdateAddressViewController.swift */; };
+		305185111B3D4FFB00175793 /* SetShippingOptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305185101B3D4FFB00175793 /* SetShippingOptionController.swift */; };
+		305185191B40307200175793 /* CompleteOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305185161B40307200175793 /* CompleteOrder.swift */; };
+		3051851A1B40307200175793 /* RecieverAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305185171B40307200175793 /* RecieverAddress.swift */; };
+		3051851B1B40307200175793 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305185181B40307200175793 /* ListItem.swift */; };
+		3051851D1B403E5F00175793 /* PreviousShipmentAllTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3051851C1B403E5F00175793 /* PreviousShipmentAllTableCell.swift */; };
+		3051851F1B403E7600175793 /* PreviousShipmentCompletedTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3051851E1B403E7600175793 /* PreviousShipmentCompletedTableCell.swift */; };
+		305185211B403E8000175793 /* PreviousShipmentPendingTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305185201B403E8000175793 /* PreviousShipmentPendingTableCell.swift */; };
+		305185231B415B3700175793 /* TrackingTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305185221B415B3700175793 /* TrackingTableCell.swift */; };
+		305185251B415C6800175793 /* ShipmentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305185241B415C6800175793 /* ShipmentDetailsViewController.swift */; };
+		3051852F1B41C40900175793 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 305185281B41C40900175793 /* TPKeyboardAvoidingCollectionView.m */; };
+		305185301B41C40900175793 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3051852A1B41C40900175793 /* TPKeyboardAvoidingScrollView.m */; };
+		305185311B41C40900175793 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3051852C1B41C40900175793 /* TPKeyboardAvoidingTableView.m */; };
+		305185321B41C40900175793 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3051852E1B41C40900175793 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		309824CF1B3959B400CC1EC2 /* AddressTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309824CE1B3959B400CC1EC2 /* AddressTableCell.swift */; };
+		30C1F2031B357BE80051ED2D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C1F2021B357BE80051ED2D /* MapKit.framework */; };
+		30F93A501B4257D300A1D615 /* TrackingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F93A4F1B4257D300A1D615 /* TrackingCell.swift */; };
+		30F93A521B42587400A1D615 /* TrackingDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F93A511B42587400A1D615 /* TrackingDataViewController.swift */; };
+		7593064DE2D94935D98F43E6 /* Pods_Sendd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7B43C2C56B9AA723ED643F /* Pods_Sendd.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3024AB651B357AB70052F281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3024AB441B357AB70052F281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3024AB4B1B357AB70052F281;
+			remoteInfo = Sendd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		146E8108A9E3D1C2117C1033 /* Pods-Sendd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sendd.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sendd/Pods-Sendd.release.xcconfig"; sourceTree = "<group>"; };
+		3009D4781B4BF463003ED850 /* CustomAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertViewController.swift; sourceTree = "<group>"; };
+		3009D4791B4BF463003ED850 /* CustomAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomAlertViewController.xib; sourceTree = "<group>"; };
+		3009D47A1B4BF463003ED850 /* CustomAlertViewTransitioner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertViewTransitioner.swift; sourceTree = "<group>"; };
+		3009D47E1B5292B3003ED850 /* NetworkUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkUtils.swift; sourceTree = "<group>"; };
+		3021EBEF1B357C3800100208 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3021EBF51B357C6F00100208 /* Sendd-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sendd-Bridging-Header.h"; sourceTree = "<group>"; };
+		3021EBF61B357C6F00100208 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		3021EBF71B357C6F00100208 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		3021EBFC1B36361E00100208 /* CustomerSupportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerSupportViewController.swift; sourceTree = "<group>"; };
+		3021EC2F1B36E02C00100208 /* FAQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
+		3021EC361B36F4E800100208 /* InitialtPageItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialtPageItemController.swift; sourceTree = "<group>"; };
+		3021EC371B36F4E800100208 /* InitialTutorialController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialTutorialController.swift; sourceTree = "<group>"; };
+		3021EC3A1B370B8100100208 /* TabBarControllerSwipeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarControllerSwipeExtension.swift; sourceTree = "<group>"; };
+		3021EC3D1B37335300100208 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3021EC3F1B37338600100208 /* VerifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyViewController.swift; sourceTree = "<group>"; };
+		3021EC411B3838F100100208 /* ManuallyAddDestinationAddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManuallyAddDestinationAddressViewController.swift; sourceTree = "<group>"; };
+		3021EC431B38397900100208 /* AddDestinationAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDestinationAddress.swift; sourceTree = "<group>"; };
+		3021EC461B38DD8900100208 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3024AB4C1B357AB70052F281 /* Sendd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sendd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3024AB501B357AB70052F281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3024AB511B357AB70052F281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3024AB541B357AB70052F281 /* Sendd.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sendd.xcdatamodel; sourceTree = "<group>"; };
+		3024AB5B1B357AB70052F281 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3024AB5E1B357AB70052F281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3024AB641B357AB70052F281 /* SenddTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SenddTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3024AB691B357AB70052F281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3024AB6A1B357AB70052F281 /* SenddTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenddTests.swift; sourceTree = "<group>"; };
+		3024AB741B357AF00052F281 /* PreviousParcelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviousParcelViewController.swift; sourceTree = "<group>"; };
+		3024AB751B357AF00052F281 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		3024AB761B357AF10052F281 /* OrdersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		3024AB771B357AF10052F281 /* RateCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateCalculatorViewController.swift; sourceTree = "<group>"; };
+		3024AB781B357AF10052F281 /* PickupAddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickupAddressViewController.swift; sourceTree = "<group>"; };
+		3024AB791B357AF10052F281 /* PageItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageItemController.swift; sourceTree = "<group>"; };
+		3024AB7B1B357AF10052F281 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		3042D8771B3A00E9002C34B0 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		3042D8791B3A02E6002C34B0 /* AllShipmentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllShipmentsViewController.swift; sourceTree = "<group>"; };
+		3042D87B1B3A0300002C34B0 /* UpcomingShipmentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingShipmentsViewController.swift; sourceTree = "<group>"; };
+		3042D87D1B3A0315002C34B0 /* CompletedShipmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedShipmentViewController.swift; sourceTree = "<group>"; };
+		305184F71B3B724B00175793 /* ListItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItemCell.swift; sourceTree = "<group>"; };
+		305184F91B3BBE3A00175793 /* ThankyouViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThankyouViewController.swift; sourceTree = "<group>"; };
+		3051850E1B3CE35F00175793 /* UpdateAddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateAddressViewController.swift; sourceTree = "<group>"; };
+		305185101B3D4FFB00175793 /* SetShippingOptionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetShippingOptionController.swift; sourceTree = "<group>"; };
+		305185161B40307200175793 /* CompleteOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteOrder.swift; sourceTree = "<group>"; };
+		305185171B40307200175793 /* RecieverAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecieverAddress.swift; sourceTree = "<group>"; };
+		305185181B40307200175793 /* ListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		3051851C1B403E5F00175793 /* PreviousShipmentAllTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviousShipmentAllTableCell.swift; sourceTree = "<group>"; };
+		3051851E1B403E7600175793 /* PreviousShipmentCompletedTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviousShipmentCompletedTableCell.swift; sourceTree = "<group>"; };
+		305185201B403E8000175793 /* PreviousShipmentPendingTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviousShipmentPendingTableCell.swift; sourceTree = "<group>"; };
+		305185221B415B3700175793 /* TrackingTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingTableCell.swift; sourceTree = "<group>"; };
+		305185241B415C6800175793 /* ShipmentDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShipmentDetailsViewController.swift; sourceTree = "<group>"; };
+		305185271B41C40900175793 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		305185281B41C40900175793 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		305185291B41C40900175793 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		3051852A1B41C40900175793 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		3051852B1B41C40900175793 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		3051852C1B41C40900175793 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		3051852D1B41C40900175793 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		3051852E1B41C40900175793 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		309824CE1B3959B400CC1EC2 /* AddressTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressTableCell.swift; sourceTree = "<group>"; };
+		30C1F2021B357BE80051ED2D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		30F93A4F1B4257D300A1D615 /* TrackingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingCell.swift; sourceTree = "<group>"; };
+		30F93A511B42587400A1D615 /* TrackingDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingDataViewController.swift; sourceTree = "<group>"; };
+		8877935699FAB307214989AB /* Pods-Sendd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sendd.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sendd/Pods-Sendd.debug.xcconfig"; sourceTree = "<group>"; };
+		9E7B43C2C56B9AA723ED643F /* Pods_Sendd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sendd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3024AB491B357AB70052F281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3021EC471B38DD8900100208 /* CoreLocation.framework in Frameworks */,
+				30C1F2031B357BE80051ED2D /* MapKit.framework in Frameworks */,
+				7593064DE2D94935D98F43E6 /* Pods_Sendd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3024AB611B357AB70052F281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3021EBF91B357C7700100208 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3021EBF61B357C6F00100208 /* SWRevealViewController.h */,
+				3021EBF71B357C6F00100208 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		3021EC451B38C85C00100208 /* Completed */ = {
+			isa = PBXGroup;
+			children = (
+				305185161B40307200175793 /* CompleteOrder.swift */,
+				305185171B40307200175793 /* RecieverAddress.swift */,
+				305185181B40307200175793 /* ListItem.swift */,
+				3042D8771B3A00E9002C34B0 /* UIColorExtension.swift */,
+				3021EC3A1B370B8100100208 /* TabBarControllerSwipeExtension.swift */,
+				3024AB511B357AB70052F281 /* AppDelegate.swift */,
+				309824CE1B3959B400CC1EC2 /* AddressTableCell.swift */,
+				305184F71B3B724B00175793 /* ListItemCell.swift */,
+				30F93A4F1B4257D300A1D615 /* TrackingCell.swift */,
+				305185221B415B3700175793 /* TrackingTableCell.swift */,
+				3051851C1B403E5F00175793 /* PreviousShipmentAllTableCell.swift */,
+				3051851E1B403E7600175793 /* PreviousShipmentCompletedTableCell.swift */,
+				305185201B403E8000175793 /* PreviousShipmentPendingTableCell.swift */,
+				3021EC411B3838F100100208 /* ManuallyAddDestinationAddressViewController.swift */,
+				3021EC431B38397900100208 /* AddDestinationAddress.swift */,
+				3024AB781B357AF10052F281 /* PickupAddressViewController.swift */,
+				3024AB771B357AF10052F281 /* RateCalculatorViewController.swift */,
+				3021EC3D1B37335300100208 /* RegisterViewController.swift */,
+				3021EC3F1B37338600100208 /* VerifyViewController.swift */,
+				3021EC2F1B36E02C00100208 /* FAQViewController.swift */,
+				3021EBFC1B36361E00100208 /* CustomerSupportViewController.swift */,
+				3021EC361B36F4E800100208 /* InitialtPageItemController.swift */,
+				3021EC371B36F4E800100208 /* InitialTutorialController.swift */,
+				3024AB791B357AF10052F281 /* PageItemController.swift */,
+				3024AB7B1B357AF10052F281 /* TutorialViewController.swift */,
+				3051850E1B3CE35F00175793 /* UpdateAddressViewController.swift */,
+				305185101B3D4FFB00175793 /* SetShippingOptionController.swift */,
+				305184F91B3BBE3A00175793 /* ThankyouViewController.swift */,
+				3024AB751B357AF00052F281 /* MenuController.swift */,
+				305185241B415C6800175793 /* ShipmentDetailsViewController.swift */,
+				30F93A511B42587400A1D615 /* TrackingDataViewController.swift */,
+				3009D4781B4BF463003ED850 /* CustomAlertViewController.swift */,
+				3009D4791B4BF463003ED850 /* CustomAlertViewController.xib */,
+				3009D47A1B4BF463003ED850 /* CustomAlertViewTransitioner.swift */,
+				3024AB761B357AF10052F281 /* OrdersViewController.swift */,
+				3042D8791B3A02E6002C34B0 /* AllShipmentsViewController.swift */,
+				3042D87B1B3A0300002C34B0 /* UpcomingShipmentsViewController.swift */,
+				3042D87D1B3A0315002C34B0 /* CompletedShipmentViewController.swift */,
+				3024AB741B357AF00052F281 /* PreviousParcelViewController.swift */,
+				3009D47E1B5292B3003ED850 /* NetworkUtils.swift */,
+			);
+			name = Completed;
+			sourceTree = "<group>";
+		};
+		3024AB431B357AB70052F281 = {
+			isa = PBXGroup;
+			children = (
+				30C1F2021B357BE80051ED2D /* MapKit.framework */,
+				3024AB4E1B357AB70052F281 /* Sendd */,
+				3024AB671B357AB70052F281 /* SenddTests */,
+				3024AB4D1B357AB70052F281 /* Products */,
+				D663E6816EAFCE8D44A11BE9 /* Pods */,
+				F922B3214028854A81FB8915 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3024AB4D1B357AB70052F281 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3024AB4C1B357AB70052F281 /* Sendd.app */,
+				3024AB641B357AB70052F281 /* SenddTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3024AB4E1B357AB70052F281 /* Sendd */ = {
+			isa = PBXGroup;
+			children = (
+				305185261B41C3FB00175793 /* TPKeyboardAvoiding */,
+				3021EBF91B357C7700100208 /* SWRevealViewController */,
+				3021EC451B38C85C00100208 /* Completed */,
+				3021EBEF1B357C3800100208 /* Main.storyboard */,
+				3024AB5B1B357AB70052F281 /* Images.xcassets */,
+				3024AB5D1B357AB70052F281 /* LaunchScreen.xib */,
+				3024AB531B357AB70052F281 /* Sendd.xcdatamodeld */,
+				3021EBF51B357C6F00100208 /* Sendd-Bridging-Header.h */,
+				3024AB4F1B357AB70052F281 /* Supporting Files */,
+			);
+			path = Sendd;
+			sourceTree = "<group>";
+		};
+		3024AB4F1B357AB70052F281 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3024AB501B357AB70052F281 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3024AB671B357AB70052F281 /* SenddTests */ = {
+			isa = PBXGroup;
+			children = (
+				3024AB6A1B357AB70052F281 /* SenddTests.swift */,
+				3024AB681B357AB70052F281 /* Supporting Files */,
+			);
+			path = SenddTests;
+			sourceTree = "<group>";
+		};
+		3024AB681B357AB70052F281 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3024AB691B357AB70052F281 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		305185261B41C3FB00175793 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				305185271B41C40900175793 /* TPKeyboardAvoidingCollectionView.h */,
+				305185281B41C40900175793 /* TPKeyboardAvoidingCollectionView.m */,
+				305185291B41C40900175793 /* TPKeyboardAvoidingScrollView.h */,
+				3051852A1B41C40900175793 /* TPKeyboardAvoidingScrollView.m */,
+				3051852B1B41C40900175793 /* TPKeyboardAvoidingTableView.h */,
+				3051852C1B41C40900175793 /* TPKeyboardAvoidingTableView.m */,
+				3051852D1B41C40900175793 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				3051852E1B41C40900175793 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			name = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		D663E6816EAFCE8D44A11BE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8877935699FAB307214989AB /* Pods-Sendd.debug.xcconfig */,
+				146E8108A9E3D1C2117C1033 /* Pods-Sendd.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F922B3214028854A81FB8915 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3021EC461B38DD8900100208 /* CoreLocation.framework */,
+				9E7B43C2C56B9AA723ED643F /* Pods_Sendd.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3024AB4B1B357AB70052F281 /* Sendd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3024AB6E1B357AB70052F281 /* Build configuration list for PBXNativeTarget "Sendd" */;
+			buildPhases = (
+				EA29122F355CE9C5D6D1C96A /* Check Pods Manifest.lock */,
+				3024AB481B357AB70052F281 /* Sources */,
+				3024AB491B357AB70052F281 /* Frameworks */,
+				3024AB4A1B357AB70052F281 /* Resources */,
+				B350C67C1B74C0E86EC3C099 /* Embed Pods Frameworks */,
+				F9E25E7D011EDF82D9D96763 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sendd;
+			productName = Sendd;
+			productReference = 3024AB4C1B357AB70052F281 /* Sendd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3024AB631B357AB70052F281 /* SenddTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3024AB711B357AB70052F281 /* Build configuration list for PBXNativeTarget "SenddTests" */;
+			buildPhases = (
+				3024AB601B357AB70052F281 /* Sources */,
+				3024AB611B357AB70052F281 /* Frameworks */,
+				3024AB621B357AB70052F281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3024AB661B357AB70052F281 /* PBXTargetDependency */,
+			);
+			name = SenddTests;
+			productName = SenddTests;
+			productReference = 3024AB641B357AB70052F281 /* SenddTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3024AB441B357AB70052F281 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = CrazymindTechnology;
+				TargetAttributes = {
+					3024AB4B1B357AB70052F281 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 3U6LERDSP8;
+					};
+					3024AB631B357AB70052F281 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 3024AB4B1B357AB70052F281;
+					};
+				};
+			};
+			buildConfigurationList = 3024AB471B357AB70052F281 /* Build configuration list for PBXProject "Sendd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3024AB431B357AB70052F281;
+			productRefGroup = 3024AB4D1B357AB70052F281 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3024AB4B1B357AB70052F281 /* Sendd */,
+				3024AB631B357AB70052F281 /* SenddTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3024AB4A1B357AB70052F281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3009D47C1B4BF463003ED850 /* CustomAlertViewController.xib in Resources */,
+				3021EBF01B357C3800100208 /* Main.storyboard in Resources */,
+				3024AB5F1B357AB70052F281 /* LaunchScreen.xib in Resources */,
+				3024AB5C1B357AB70052F281 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3024AB621B357AB70052F281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B350C67C1B74C0E86EC3C099 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sendd/Pods-Sendd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA29122F355CE9C5D6D1C96A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F9E25E7D011EDF82D9D96763 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sendd/Pods-Sendd-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3024AB481B357AB70052F281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3009D47D1B4BF463003ED850 /* CustomAlertViewTransitioner.swift in Sources */,
+				3024AB811B357AF10052F281 /* PageItemController.swift in Sources */,
+				3021EC381B36F4E800100208 /* InitialtPageItemController.swift in Sources */,
+				3024AB7D1B357AF10052F281 /* MenuController.swift in Sources */,
+				3024AB7F1B357AF10052F281 /* RateCalculatorViewController.swift in Sources */,
+				3021EC3B1B370B8100100208 /* TabBarControllerSwipeExtension.swift in Sources */,
+				3042D87E1B3A0315002C34B0 /* CompletedShipmentViewController.swift in Sources */,
+				30F93A521B42587400A1D615 /* TrackingDataViewController.swift in Sources */,
+				3024AB7E1B357AF10052F281 /* OrdersViewController.swift in Sources */,
+				3009D47B1B4BF463003ED850 /* CustomAlertViewController.swift in Sources */,
+				305185231B415B3700175793 /* TrackingTableCell.swift in Sources */,
+				3051852F1B41C40900175793 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				3051851F1B403E7600175793 /* PreviousShipmentCompletedTableCell.swift in Sources */,
+				3024AB551B357AB70052F281 /* Sendd.xcdatamodeld in Sources */,
+				3042D87A1B3A02E6002C34B0 /* AllShipmentsViewController.swift in Sources */,
+				3021EC421B3838F100100208 /* ManuallyAddDestinationAddressViewController.swift in Sources */,
+				305185211B403E8000175793 /* PreviousShipmentPendingTableCell.swift in Sources */,
+				3024AB521B357AB70052F281 /* AppDelegate.swift in Sources */,
+				305185301B41C40900175793 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				3021EC401B37338600100208 /* VerifyViewController.swift in Sources */,
+				305184FA1B3BBE3A00175793 /* ThankyouViewController.swift in Sources */,
+				305185311B41C40900175793 /* TPKeyboardAvoidingTableView.m in Sources */,
+				3009D47F1B5292B3003ED850 /* NetworkUtils.swift in Sources */,
+				3021EC441B38397900100208 /* AddDestinationAddress.swift in Sources */,
+				305185191B40307200175793 /* CompleteOrder.swift in Sources */,
+				30F93A501B4257D300A1D615 /* TrackingCell.swift in Sources */,
+				3051851D1B403E5F00175793 /* PreviousShipmentAllTableCell.swift in Sources */,
+				3042D87C1B3A0300002C34B0 /* UpcomingShipmentsViewController.swift in Sources */,
+				3024AB831B357AF10052F281 /* TutorialViewController.swift in Sources */,
+				305184F81B3B724C00175793 /* ListItemCell.swift in Sources */,
+				3024AB7C1B357AF10052F281 /* PreviousParcelViewController.swift in Sources */,
+				305185251B415C6800175793 /* ShipmentDetailsViewController.swift in Sources */,
+				3024AB801B357AF10052F281 /* PickupAddressViewController.swift in Sources */,
+				309824CF1B3959B400CC1EC2 /* AddressTableCell.swift in Sources */,
+				305185321B41C40900175793 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				3021EC301B36E02C00100208 /* FAQViewController.swift in Sources */,
+				305185111B3D4FFB00175793 /* SetShippingOptionController.swift in Sources */,
+				3021EC3E1B37335300100208 /* RegisterViewController.swift in Sources */,
+				3051850F1B3CE35F00175793 /* UpdateAddressViewController.swift in Sources */,
+				3021EC391B36F4E800100208 /* InitialTutorialController.swift in Sources */,
+				3051851B1B40307200175793 /* ListItem.swift in Sources */,
+				3042D8781B3A00E9002C34B0 /* UIColorExtension.swift in Sources */,
+				3051851A1B40307200175793 /* RecieverAddress.swift in Sources */,
+				3021EBFD1B36361E00100208 /* CustomerSupportViewController.swift in Sources */,
+				3021EBF81B357C6F00100208 /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3024AB601B357AB70052F281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3024AB6B1B357AB70052F281 /* SenddTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3024AB661B357AB70052F281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3024AB4B1B357AB70052F281 /* Sendd */;
+			targetProxy = 3024AB651B357AB70052F281 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3024AB5D1B357AB70052F281 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3024AB5E1B357AB70052F281 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3024AB6C1B357AB70052F281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3024AB6D1B357AB70052F281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3024AB6F1B357AB70052F281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8877935699FAB307214989AB /* Pods-Sendd.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				INFOPLIST_FILE = Sendd/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9f4920b2-b675-435c-a153-b3af15c37312";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sendd/Sendd-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3024AB701B357AB70052F281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 146E8108A9E3D1C2117C1033 /* Pods-Sendd.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				INFOPLIST_FILE = Sendd/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9f4920b2-b675-435c-a153-b3af15c37312";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sendd/Sendd-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		3024AB721B357AB70052F281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SenddTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sendd.app/Sendd";
+			};
+			name = Debug;
+		};
+		3024AB731B357AB70052F281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SenddTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sendd.app/Sendd";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3024AB471B357AB70052F281 /* Build configuration list for PBXProject "Sendd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3024AB6C1B357AB70052F281 /* Debug */,
+				3024AB6D1B357AB70052F281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3024AB6E1B357AB70052F281 /* Build configuration list for PBXNativeTarget "Sendd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3024AB6F1B357AB70052F281 /* Debug */,
+				3024AB701B357AB70052F281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3024AB711B357AB70052F281 /* Build configuration list for PBXNativeTarget "SenddTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3024AB721B357AB70052F281 /* Debug */,
+				3024AB731B357AB70052F281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3024AB531B357AB70052F281 /* Sendd.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3024AB541B357AB70052F281 /* Sendd.xcdatamodel */,
+			);
+			currentVersion = 3024AB541B357AB70052F281 /* Sendd.xcdatamodel */;
+			path = Sendd.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3024AB441B357AB70052F281 /* Project object */;
+}

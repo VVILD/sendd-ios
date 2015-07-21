@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14E46" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CompleteOrder" representedClassName="Sendd.CompleteOrder" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cost" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="drop_address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="drop_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="drop_phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="drop_pincode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageloc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageobj" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="order_status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pickup_address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pickup_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pickup_phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pickup_pincode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="total_cost" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tracking_no" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ListItem" representedClassName="Sendd.ListItem" syncable="YES">
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="flat_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imagedata" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="imageloc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="locality" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pincode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shippingoption" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RecieverAddress" representedClassName="Sendd.RecieverAddress" syncable="YES">
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="flat_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="locality" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pincode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CompleteOrder" positionX="-137" positionY="99" width="128" height="345"/>
+        <element name="ListItem" positionX="9" positionY="102" width="128" height="240"/>
+        <element name="RecieverAddress" positionX="-279" positionY="99" width="128" height="163"/>
+    </elements>
+</model>
