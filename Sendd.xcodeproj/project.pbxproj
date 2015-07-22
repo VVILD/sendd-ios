@@ -649,7 +649,7 @@
 				INFOPLIST_FILE = Sendd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9f4920b2-b675-435c-a153-b3af15c37312";
+				PROVISIONING_PROFILE = "5696cf75-767b-4048-8ddf-3ebf3d315b9f";
 				SWIFT_OBJC_BRIDGING_HEADER = "Sendd/Sendd-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -665,7 +665,7 @@
 				INFOPLIST_FILE = Sendd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9f4920b2-b675-435c-a153-b3af15c37312";
+				PROVISIONING_PROFILE = "5696cf75-767b-4048-8ddf-3ebf3d315b9f";
 				SWIFT_OBJC_BRIDGING_HEADER = "Sendd/Sendd-Bridging-Header.h";
 			};
 			name = Release;

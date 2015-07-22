@@ -39,7 +39,7 @@ class OrdersViewController: UIViewController , UIImagePickerControllerDelegate, 
                     self.presentViewController(vc, animated: true, completion: nil)
                     
                 }else{
-                    let alertview : SCLAlertViewResponder = SCLAlertView().showError("Error", subTitle: "Please select from availabe time slots", closeButtonTitle: "Dismiss" )
+                    let alertview : SCLAlertViewResponder = SCLAlertView().showError("Error", subTitle: "Please add parcel to continue.", closeButtonTitle: "Dismiss" )
                 }
             }else{
                 performSegueWithIdentifier("AddPickUpAddress", sender:self)

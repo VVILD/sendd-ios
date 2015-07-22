@@ -337,6 +337,7 @@ public class SCLAlertView: UIViewController {
 
     // showWait(view, title, subTitle)
     public func showWait(title: String, subTitle: String, closeButtonTitle:String?=nil, duration:NSTimeInterval=0.0, colorStyle: UInt?=0x4a89dc, colorTextButton: UInt=0xFFFFFF) -> SCLAlertViewResponder {
+        showCloseButton = false
         return showTitle(title, subTitle: subTitle, duration: duration, completeText:closeButtonTitle, style: .Wait, colorStyle: colorStyle, colorTextButton: colorTextButton)
     }
   
@@ -389,6 +390,7 @@ public class SCLAlertView: UIViewController {
             iconImage = SCLAlertViewStyleKit.imageOfEdit
 
         case .Wait:
+            showCloseButton = false
             viewColor = UIColorFromRGB(colorStyle!)
         }
 
