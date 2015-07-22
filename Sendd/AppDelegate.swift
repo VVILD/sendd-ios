@@ -9,6 +9,9 @@
 import UIKit
 import CoreData
 import GoogleMaps
+import Fabric
+import Crashlytics
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
@@ -17,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let storyboard = UIStoryboard(name: "Main", bundle: nil)
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        Fabric.with([Crashlytics()])
         let rootController = storyboard.instantiateViewControllerWithIdentifier("RWViewController") as? UIViewController
         GMSServices.provideAPIKey("AIzaSyBrQJWjerxYH3V9jApGmu5EXuugvcn3Y5w")
         if(NSUserDefaults.standardUserDefaults().objectForKey("firstTimeUser") != nil){

@@ -38,14 +38,14 @@ class SetShippingOptionViewController: UIViewController{
         let l = alert.addTextField(title:"Enter length in cm")
         let b = alert.addTextField(title:"Enter width in cm")
         let h = alert.addTextField(title:"Enter height in cm")
-        let w = alert.addTextField(title:"Enter weight in cm")
+        let w = alert.addTextField(title:"Enter weight in kgs")
         w.keyboardType = UIKeyboardType.NumberPad
         b.keyboardType = UIKeyboardType.NumberPad
         l.keyboardType = UIKeyboardType.NumberPad
         h.keyboardType = UIKeyboardType.NumberPad
         alert.addButton("Get Estimate") {
             let alertview : SCLAlertViewResponder = SCLAlertView().showWait("Loading", subTitle: "Please Wait", closeButtonTitle: "Cancel")
-            Alamofire.request(.POST, self.URL + "priceapp/", parameters: ["pincode":self.pincode,"weight":w.text,"l":l.text,"b":b.text ,"h":h.text]).responseJSON() {
+            Alamofire.request(.POST, self.URL + "priceapp/", parameters: ["pincode":self.pincode,"weight":w.text,"l":l.text,"b":b.text ,"h":h.text],encoding: .JSON).responseJSON() {
                 (_, _, data, error) in
                 
                 if error == nil {
